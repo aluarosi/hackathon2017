@@ -7,19 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "main": "./node_modules/.bin/babel-node ./src/bin/main.js",
 
-    "createAllStreamsAndContributorsWithCurl": "cd valo/doc/interfaces && sh create_all_contributors_and_streams.sh; cd -",
-    "createAllStreamsAndContributors": "babel-node valo/doc/interfaces/create_all_contributors_and_streams.js",
+    "createAllStreamsAndContributorsWithCurl": "cd base/doc/interfaces && sh create_all_contributors_and_streams.sh; cd -",
+    "createAllStreamsAndContributors": "babel-node base/doc/interfaces/create_all_contributors_and_streams.js",
 
-    "launch:transport": "babel-node valo/src/transport_to_valo_bridge_js/bin/main.js",
-    "launch:lights": "babel-node valo/src/philips_hue_js/bin/philips_hue_example_1.js",
+    "launch:transport": "babel-node base/src/transport_to_valo_bridge_js/bin/main.js",
+    "launch:lights": "babel-node base/src/philips_hue_js/bin/philips_hue_example_1.js",
 
-    "launch:twitter": "babel-node valo/src/twitter_js/bin/main.js",
-    "launch:simulator": "babel-node valo/src/simulator_js/bin/main.js",
+    "launch:twitter": "babel-node base/src/twitter_js/bin/main.js",
+    "launch:simulator": "babel-node base/src/simulator_js/bin/main.js",
 
     "premake:viz": "npm install",
-    "make:viz": "webpack --config valo/src/visualizations_js/webpack.config.js",
+    "make:viz": "webpack --config base/src/visualizations_js/webpack.config.js",
     "prelaunch:viz": "npm install",
-    "launch:viz": "http-server valo/src/visualizations_js -s -o -c-1"
+    "launch:viz": "http-server base/src/visualizations_js -s -o -c-1"
   },
   "author": "",
   "license": "",

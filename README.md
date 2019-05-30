@@ -16,7 +16,9 @@ Below you will see a quick [Getting started](https://github.com/ITRS-Group/hacka
 
 ## Repo organization
 
-Under `valo/` we put all the code (examples, helpers) and documentation created by Valo for the participants to use.
+Under `base/` we put all the code (examples, helpers) and documentation created by Valo for the participants to use.
+
+Under `teams/`we put content from the teams' branches that has been promoted to the `master`branch. Here we should have the team information in `README.md`and the team's final presentation.
 
 For each team, this is how we will organise the Hackathon:
 
